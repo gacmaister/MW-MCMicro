@@ -1,0 +1,188 @@
+QCG-DEBUG: Searching for group plgrid modules
+QCG-DEBUG: Searching for group plggextrusio modules
+QCG-DEBUG: Searching for group plggmcmicro modules
+QCG-DEBUG: Searching for group plggmfm modules
+QCG-DEBUG: Searching for group plgt-jolakowal modules
+QCG-DEBUG: QCG_MOUNT_TYPE not defined
+QCG-DEBUG: QCG_MONITOR_CONSUMER not set - application will not be monitoring
+Application started on host n0792-g7x.zeus at Wed Jan 25 20:11:04 CET 2017
+== ENV START==
+PLG_USER_SCRATCH_SHARED=/mnt/lustre/scratch2/people/plgjolakowal
+VO_VO_NEDM_CYFRONET_PL_DEFAULT_SE=dpm.cyf-kr.edu.pl
+MANPATH=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2/share/man::
+_ModuleTable003_=b2xzL29wZW5tcGkvMS42LjUtZ251LTQuOC4yLWliIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJwbGdyaWQvdG9vbHMvb3Blbm1waSIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LH0sbXBhdGhBPXsiL3NvZnR3YXJlL2xvY2FsL21vZHVsZXMubG1vZC9tb2R1bGVmaWxlcyIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvc29mdHdhcmUvbG9jYWwvbW9kdWxlcy5sbW9kL21vZHVsZWZpbGVzIixbInZlcnNpb24iXT0yLH0=
+QCG_DEBUG=true
+HOSTNAME=n0792-g7x.zeus
+QCG_UI_HOSTNAME=ui.cyfronet.pl
+PLG_GROUPS_STORAGE=/mnt/nfs/groups
+PBS_VERSION=TORQUE-2.5.12
+VO_ALICE_SW_DIR=/software/grid/alice
+MCMICRO_RUN=mpiexec MCMicro_MPI
+GRID_ENV_LOCATION=/usr/libexec
+VO_VOCE_DEFAULT_SE=dpm.cyf-kr.edu.pl
+SHELL=/bin/bash
+HISTSIZE=1000
+LMOD_DEFAULT_MODULEPATH=/software/local/modules.lmod/modulefiles
+TMPDIR=/scratch/70341068.batch.grid.cyf-kr.edu.pl
+PBS_JOBNAME=QCG_SymulacjaDG
+QCG_OUTERR_FILE=output.log
+PLG_USER_STORAGE2=/mnt/nfs/storage/plgjolakowal
+VO_HONE_SW_DIR=/software/grid/hone
+VO_OPS_DEFAULT_SE=dpm.cyf-kr.edu.pl
+QCG_APP_ROOT_DIR=/software/grid/plgrid/qcg-appscripts/apps/..
+PLG_GROUPS_SHARED=/mnt/gpfs/work/plgrid/groups
+DPM_HOST=dpm.cyf-kr.edu.pl
+GT_PROXY_MODE=old
+LMOD_PKG=/software/local/modules.lmod/lmod/lmod
+EDG_WL_SCRATCH=/scratch/70341068.batch.grid.cyf-kr.edu.pl
+PBS_ENVIRONMENT=PBS_BATCH
+QTDIR=/usr/lib64/qt-3.3
+PLG_USER_SCRATCH=/scratch/70341068.batch.grid.cyf-kr.edu.pl
+QCG_ZIP_OUTPUTS=outputs
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=6.1.3
+VO_VOCE_SW_DIR=/software/grid/voce
+PBS_O_WORKDIR=/mnt/lustre/scratch2/people//plgjolakowal/qcg-SymulacjaDG2_mcmicro-1485371437853
+QCG_PROCS=4
+VO_BELLE_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_VO_NEDM_CYFRONET_PL_SW_DIR=/software/grid/nedm
+PBS_TASKNUM=1
+USER=plgjolakowal
+LD_LIBRARY_PATH=/software/local/el6/COMMON/gcc/4.8.2/lib64:/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2/lib
+VO_ENMR_EU_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_GAUSSIAN_SW_DIR=/software/grid/gaussian
+VO_VIRGO_SW_DIR=/software/grid/virgo
+QCG_ACTIVITY_ID=33f88858-0d5b-40a7-605f-03463b052082
+LCG_LOCATION=/usr
+VO_CMS_SW_DIR=/software/grid/cms
+VO_DTEAM_SW_DIR=/software/grid/dteam
+VO_ZEUS_SW_DIR=/software/grid/zeus
+QCG_MOUNT_TYPE_VEILFS=[vV][eE][iI][lL][fF][sS]
+ATLAS_LOCAL_AREA=/software/grid/atlas/local
+PBS_WALLTIME=1800
+VO_LHCB_DEFAULT_SE=dpm.cyf-kr.edu.pl
+PBS_GPUFILE=/var/torque/aux//70341068.batch.grid.cyf-kr.edu.plgpu
+PBS_MOMPORT=15003
+VO_OPS_SW_DIR=/software/grid/ops
+VO_ATLAS_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_VO_NEUGRID_EU_SW_DIR=/software/grid/neugrid
+OPENMPI_ROOT=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2
+STORAGE=/mnt/nfs/storage/plgjolakowal
+PBS_O_QUEUE=plgrid
+MPIROOT=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MyxiYXNlTXBhdGhBPXsiL3NvZnR3YXJlL2xvY2FsL21vZHVsZXMubG1vZC9tb2R1bGVmaWxlcyIsfSxbImNfcmVidWlsZFRpbWUiXT04NjQwMCxbImNfc2hvcnRUaW1lIl09ZmFsc2UsZmFtaWx5PXt9LGluYWN0aXZlPXt9LG1UPXtbInBsZ3JpZC9hcHBzL21jbWljcm8iXT17WyJGTiJdPSIvc29mdHdhcmUvbG9jYWwvbW9kdWxlcy5sbW9kL21vZHVsZWZpbGVzL3BsZ3JpZC9hcHBzL21jbWljcm8vMS4wIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0icGxncmlkL2FwcHMvbWNtaWNyby8xLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09InBsZ3JpZC9hcHBzL21jbWljcm8iLFsic3RhdHVzIl09ImFj
+QCG_APP_LOCAL_JOB_ID=70341068.batch.grid.cyf-kr.edu.pl
+VO_BIOMED_DEFAULT_SE=dpm.cyf-kr.edu.pl
+MAIL=/var/spool/mail/plgjolakowal
+PATH=/software/local/el6/COMMON/gcc/4.8.2/bin:/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2/bin:/software/local/el6/COMMON/mcmicro/1.0:/usr/lib64/qt-3.3/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/people/plgjolakowal/bin:/software/grid/plgrid/qcg-appscripts/apps/../tools/qcm
+DPNS_HOST=dpm.cyf-kr.edu.pl
+PBS_JOBCOOKIE=130AE667CE03E83B8584EA03C4D87A67
+VO_CMS_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_DTEAM_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_ZEUS_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_BELLE_SW_DIR=/cvmfs/belle.cern.ch/sl6
+PWD=/mnt/lustre/scratch2/people/plgjolakowal/qcg-SymulacjaDG2_mcmicro-1485371437853
+_LMFILES_=/software/local/modules.lmod/modulefiles/plgrid/tools/gcc/4.8.2:/software/local/modules.lmod/modulefiles/plgrid/tools/openmpi/1.6.5-gnu-4.8.2-ib:/software/local/modules.lmod/modulefiles/plgrid/apps/mcmicro/1.0
+SITE_GIIS_URL=sbdii.grid.cyf-kr.edu.pl
+PSM_SHAREDCONTEXTS_MAX=1
+PBS_NODENUM=0
+LANG=C
+MODULEPATH=/software/local/modules.lmod/modulefiles
+VO_VO_CTA_IN2P3_FR_DEFAULT_SE=dpm.cyf-kr.edu.pl
+_ModuleTable_Sz_=3
+LOADEDMODULES=plgrid/tools/gcc/4.8.2:plgrid/tools/openmpi/1.6.5-gnu-4.8.2-ib:plgrid/apps/mcmicro/1.0
+PBS_NUM_NODES=4
+QCG_APP_SYSTEM_TYPE=torque
+PROC=INTEL
+MYPROXY_SERVER=myproxy.grid.cyf-kr.edu.pl
+VO_VO_PLGRID_PL_DEFAULT_SE=dpm.cyf-kr.edu.pl
+OMPI=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2
+LMOD_CMD=/software/local/modules.lmod/lmod/lmod/libexec/lmod
+USERGROUPS=plgrid plggextrusio plggmcmicro plggmfm plgt-jolakowal
+PBS_JOBID=70341068.batch.grid.cyf-kr.edu.pl
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+MPI=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2
+VO_LHCB_SW_DIR=/cvmfs/lhcb.cern.ch
+OMPI_MCA_btl_sm_use_knem=0
+GLITE_LOCATION_VAR=/var
+VO_ALICE_DEFAULT_SE=dpm.cyf-kr.edu.pl
+SHLVL=3
+HOME=/people/plgjolakowal
+QCG_PPN=1
+_ModuleTable002_=dGl2ZSIsfSxbInBsZ3JpZC90b29scy9nY2MiXT17WyJGTiJdPSIvc29mdHdhcmUvbG9jYWwvbW9kdWxlcy5sbW9kL21vZHVsZWZpbGVzL3BsZ3JpZC90b29scy9nY2MvNC44LjIiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJwbGdyaWQvdG9vbHMvZ2NjLzQuOC4yIixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJwbGdyaWQvdG9vbHMvZ2NjIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJwbGdyaWQvdG9vbHMvb3Blbm1waSJdPXtbIkZOIl09Ii9zb2Z0d2FyZS9sb2NhbC9tb2R1bGVzLmxtb2QvbW9kdWxlZmlsZXMvcGxncmlkL3Rvb2xzL29wZW5tcGkvMS42LjUtZ251LTQuOC4yLWliIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0icGxncmlkL3Rv
+VO_SUPERBVO_ORG_SW_DIR=/software/grid/superbvo.org
+PBS_O_HOST=qcg.grid.cyf-kr.edu.pl
+GLITE_ENV_SET=TRUE
+VO_ENMR_EU_SW_DIR=/cvmfs/wenmr.egi.eu
+VO_GAUSSIAN_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_VIRGO_DEFAULT_SE=dpm.cyf-kr.edu.pl
+PBS_VNODENUM=0
+MPI_ROOT=/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2
+LCG_GFAL_INFOSYS=bdii.cyf-kr.edu.pl:2170
+LOGNAME=plgjolakowal
+QCG_NODEFILE=/var/torque/aux//70341068.batch.grid.cyf-kr.edu.pl
+QCG_NO_SCRATCH=yes
+VO_VO_ACCESS_EGI_EU_SW_DIR=/software/grid/vo.access.egi.eu
+QTLIB=/usr/lib64/qt-3.3/lib
+VO_SUPERBVO_ORG_DEFAULT_SE=dpm.cyf-kr.edu.pl
+CVS_RSH=ssh
+VO_BIOMED_SW_DIR=/software/grid/biomed
+PBS_QUEUE=plgrid
+MODULESHOME=/software/local/modules.lmod/lmod/lmod
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PLG_USER_STORAGE=/mnt/nfs/storage/plgjolakowal
+VO_HONE_DEFAULT_SE=dpm.cyf-kr.edu.pl
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+VO_VO_NEUGRID_EU_DEFAULT_SE=dpm.cyf-kr.edu.pl
+PBS_NP=4
+QCG_ZIPPED_INPUTS=files.zip
+QCG_SPN=1
+QCG_JOB_DIR=/mnt/lustre/scratch2/people/plgjolakowal/qcg-SymulacjaDG2_mcmicro-1485371437853
+GLITE_LOCATION=/usr
+PBS_NUM_PPN=1
+LMOD_DIR=/software/local/modules.lmod/lmod/lmod/libexec
+VO_VO_PLGRID_PL_SW_DIR=/software/grid/plgrid
+SITE_NAME=CYFRONET-LCG2
+VO_VO_CTA_IN2P3_FR_SW_DIR=/software/grid/cta
+G_BROKEN_FILENAMES=1
+SCRATCH=/mnt/lustre/scratch2/people/plgjolakowal
+PBS_NODEFILE=/var/torque/aux//70341068.batch.grid.cyf-kr.edu.pl
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/bin/env
+== ENV END==
+QCG-DEBUG: QCG_SCRATCH_DIR = /scratch/70341068.batch.grid.cyf-kr.edu.pl
+QCG-DEBUG: QCG_JOB_DIR = /mnt/lustre/scratch2/people/plgjolakowal/qcg-SymulacjaDG2_mcmicro-1485371437853
+QCG-DEBUG: QCG_MODULES_LIST =
+QCG-DEBUG: QCG_COORDINATOR_URL =
+QCG-DEBUG: QCG_TASKID =
+QCG-DEBUG: QCG_JOBID =
+QCG-DEBUG: QCG_MASTER_GROUP =
+QCG-DEBUG: QCG_ACTIVITY_ID = 33f88858-0d5b-40a7-605f-03463b052082
+QCG-DEBUG: mcmicro input = SymulacjaDG2.mcmicro
+QCG-DEBUG: Not changing to scratch
+QCG-DEBUG: Unzipping input files: files.zip
+Archive:  files.zip
+  inflating: SymulacjaDG2.mcmicro    
+QCG-DEBUG: QCG watch output consumer address not defined
+which: no MCMicro in (/software/local/el6/COMMON/gcc/4.8.2/bin:/software/local/el6/COMMON/OpenMPI/1.6.5/ib/gnu/4.8.2/bin:/software/local/el6/COMMON/mcmicro/1.0:/usr/lib64/qt-3.3/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/people/plgjolakowal/bin:/software/grid/plgrid/qcg-appscripts/apps/../tools/qcm)
+QCG-DEBUG: path:
+QCG-DEBUG: Starting w/o input: mpiexec MCMicro_MPI 1 SymulacjaDG2.mcmicro
+QCG-DEBUG: application started with pid
+QCG-DEBUG: waiting for pid 22353
+QCG-DEBUG: Watch output not subscribed
+QCG-DEBUG: Killing interactive watch script: 22341
+QCG-DEBUG: zipping outputs files into: outputs
+  adding: Morfology_AfterGrainGrowth2.txt (deflated 85%)
+  adding: Kinetics_AfterSrxMC3.txt (deflated 60%)
+  adding: .qcg/ (stored 0%)
+  adding: .qcg/stdin (stored 0%)
+  adding: Morfology_AfterGrainGrowth0.txt (deflated 85%)
+  adding: Morfology_AfterGrainGrowth1.txt (deflated 85%)
+  adding: Morfology_AfterGrainGrowth3.txt (deflated 85%)
+  adding: qcg.debug
